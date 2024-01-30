@@ -1,0 +1,19 @@
+/* Add this CSS to your styles file or component */
+
+/* Style for the container div that holds Form2 and Preview */
+.container {
+    display: flex;
+  }
+  
+  /* Style for Form2 - it will take 60% of the container width */
+  .Form2 {
+    flex: 0 0 60%;
+    padding: 20px; /* Optional: Add padding for better aesthetics */
+  }
+  
+  /* Style for Preview - it will take 40% of the container width */
+  .Preview {
+    flex: 0 0 40%;
+    padding: 20px; /* Optional: Add padding for better aesthetics */
+  }
+  

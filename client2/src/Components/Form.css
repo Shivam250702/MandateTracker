@@ -1,0 +1,52 @@
+
+.form_container {
+    padding: 2vw;
+    margin: 5%;
+    border: 2px solid black;
+    border-radius: 2vw;
+    background-color: rgb(215, 239, 246);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .form_heading{
+    padding: .5vw;
+    text-align: center;
+  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  }
+  .single_col{
+    margin: .1vw;
+    padding: .52vw;
+  }
+  .name{
+   margin: 0.2vw;
+   padding: .5vw 1.00vw .5vw 1vw;
+   width: 20vw;
+   height: min-content;
+    border-radius: 25vw ;
+  }
+  
+  .form-btn{
+     margin: 1vw;
+    width: min-content;
+    padding: 1vw 2vw 1vw 2vw;
+    border-radius: 30vw;
+    background-color: black;
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.content{
+  display: flex;
+}
+.attachment{
+  margin: .2vw;
+  padding: 1vw .5vw 1vw .5vw;
+}
+.choose_btn{
+  border:2px solid black;
+  border-radius: 2vw;
+  background-color: white;
+}
+  

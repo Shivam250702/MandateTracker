@@ -1,0 +1,29 @@
+{
+  "name": "send-email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "proxy": "http://localhost:3001",
+  "scripts": {
+    "start": "nodemon index.js",
+    "server": "nodemon index.js --ignore client2",
+    "client2": "npm start --prefix client2",
+    "dev": "concurrently \"npm run server\" \"npm run client2\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "moment": "^2.29.4",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.7.1",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^2.0.22",
+    "react-select": "^5.8.0"
+  }
+}
